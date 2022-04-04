@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="script" href="js/consulta.js" />
+    <title>Document</title>
+  </head>
+
+  <div class="container">
+
+  <form action="">
+    <div class="login-box">
+        <h2>Busca por CEP:</h2>
+        <form action="" method="get">
+          <div class="user-box">
+              <input type="text" name="nome" required="required" />
+              <label for="nome">Nome:</label>
+          </div>
+  
+          <div class="user-box">
+              <input type="text" id="cep"  required>
+              <label for="cep">CEP:</label>
+          </div>
+  
+          <div class="user-box">
+              <input type="text" id="bairro"  required>
+              <label for="bairro">Bairro:</label>
+          </div>
+
+          <div class="user-box">
+            <input type="text" id="ddd" required>
+            <label for="ddd">DDD:</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="localidade" required>
+            <label for="localidade">Cidade:</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="logradouro" required> 
+            <label for="logradouro">Rua:</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="numero" required="required"> 
+            <label for="numero">Número:</label>
+        </div>
+
+        <div class="user-box">
+            <input type="text" id="uf" required>
+            <label for="uf">Estado:</label>
+        </div>
+     
+    <button onclick="enviar()" type="button" value="Enviar" >Enviar</button>
+</div>
+  </form>
+
+  
+
+  <script src="js/consulta.js"></script>
+
+  <body></body>
+</html>
